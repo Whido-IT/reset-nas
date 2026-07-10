@@ -44,4 +44,4 @@ ipconfig /flushdns | Out-Null
 nbtstat -R | Out-Null
 nbtstat -RR | Out-Null
 
-shutdown -r -t 0
+#shutdown -r -t 0
