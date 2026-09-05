@@ -44,4 +44,5 @@ ipconfig /flushdns | Out-Null
 nbtstat -R | Out-Null
 nbtstat -RR | Out-Null
 
-#shutdown -r -t 0
+Set-SmbClientConfiguration -RequireSecuritySignature $false
+shutdown -r -t 0
